@@ -1,0 +1,36 @@
+section.clientes{
+  background-color: #f0f0f0;
+  padding: 50px 20px;
+}
+
+section.clientes .row.clientes {
+  padding: 20px 0;
+}
+section.clientes .logo{
+  padding: 0 0;
+  text-align: center;
+}
+section.clientes .descricao{
+  margin-left: 0;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  section.clientes .descricao{
+    margin-left: 0;
+  }
+  section.clientes .logo{
+    padding: 0 0;
+  }
+}
+@media (min-width: 992px) {
+  section.clientes .logo{
+    padding: 0 220px;
+  }
+  section.clientes .logo{
+    padding: 0 220px;
+  }
+  section.clientes .descricao{
+    margin-left: 0;
+  }
+}

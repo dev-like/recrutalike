@@ -1,0 +1,14 @@
+section.erro404{
+  min-height: 240px;
+}
+h1{
+  position: relative;
+  padding-left: 18%;
+  padding-top: 100px;
+}
+
+@media (min-width:575px) {
+  h1{
+    padding-left: 26%;
+  }
+}

@@ -1,0 +1,79 @@
+section.trabalheconosco{
+  background: #50d45a url('../images/buneco.png') no-repeat right center;
+  background-size: 50% auto;
+  overflow: hidden;
+  padding: 100px 0;
+}
+h1.titulo{
+  color: #fff;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 16px;
+  text-shadow: 2px 2px 0px #13a855, 3px 3px 0px #1b6eb4;
+}
+input{
+  width: 100%;
+  color: #fff;
+  font-size: .9em;
+  display: block;
+  padding: 8px 10px;
+  background-color: transparent;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  outline: none;
+}
+
+input.file{ display: none }
+label{
+  color: #fff;
+  width: 100%;
+  display: block;
+  font-size: 1.1em;
+  text-align: left !important;
+  padding: 4px 12px;
+}
+label.curriculo{
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-top: 20px;
+  background-color: #185f41;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+button {
+  background-color: #fff;
+}
+input::placeholder{
+  color: #fff;
+}
+.enviar{
+    color: #307b5b;
+    line-height: 1;
+    font-size: 20px;
+    margin-top: 26px;
+    font-weight: 400;
+    border-radius: 26px;
+    letter-spacing: 6px;
+    display: inline-block;
+    padding: 10px 24px 8px;
+    background-color: #fff;
+    border: none;
+}
+.box{
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  background-color: rgba(19, 168, 85, 0.7);
+  padding: 40px 20px 60px;
+  border-image: url('../images/border.png') 20% round;
+  border-top: 5px solid transparent;
+}
+@media (max-width: 767px) {
+  section.trabalheconosco{
+    background-size: 90%;
+  }
+}
