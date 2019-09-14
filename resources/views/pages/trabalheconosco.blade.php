@@ -24,14 +24,14 @@
           <div class="row">
             <div class="col-md-7 col-lg-6">
                 <div class="box">
-                  <h1 class="titulo">Recruta Like</h1>
+                  <h1 class="titulo">RECRUTA LIKE</h1>
                   <form action="/postMail" method="post" enctype="multipart/form-data">
                     {{ csrf_field() }}
-                        <label for="nome">NOME</label>
+                        <label for="nome">Nome</label>
                         <input id="nome" name="nome" type="text" required>
-                        <label for="email">E-MAIL</label>
+                        <label for="email">E-Mail</label>
                         <input id="email" name="email" type="email" required>
-                        <label for="fone">TELEFONE</label>
+                        <label for="fone">Telefone</label>
                         <input id="fone" name="fone" type="tel" required>
 
                         <button type="submit" class="enviar">ENVIAR</button>
