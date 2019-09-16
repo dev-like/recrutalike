@@ -49,27 +49,28 @@
 
 @section('script')
 <script>
-
-$('button').on('click', function(){
-
-  if( $("#nome").val() != "" && $("#email").val() != "" && $("#fone").val() != "" && $("#curriculo").val() != ""){
-    swal({
-      text: 'Enviando inscrição ! ',
-      imageUrl: "theme/images/loading.gif",
-      showCancelButton: false,
-      showConfirmButton: false
-    })
-  }
-
-});
-
+  $('button').on('click', function(){
+    if( $("#nome").val() != "" && $("#email").val() != "" && $("#fone").val() != "" && $("#curriculo").val() != ""){
+      swal({
+        text: 'Enviando inscrição ! ',
+        imageUrl: "theme/images/loading.gif",
+        showCancelButton: false,
+        showConfirmButton: false
+      })
+    }
+  });
 </script>
     <!-- Chat do Movidesk -->
 
     <!-- Chat do Movidesk fim -->
     <script src="{{ asset('theme/js/main.js') }}" charset="utf-8"></script>
     <script src="{{ asset('template/plugins/sweet-alert/sweetalert2.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('theme/js/jquery.mask.js') }}" charset="utf-8"></script>
     <script>
+        jQuery(function($){
+          $("#fone").mask("(99) 999999-9999");
+        });
+
         $.jFlowLabel({ 'id':'nome','icolor':'#fff','ocolor':'#fff' });
         $.jFlowLabel({ 'id':'email','icolor':'#fff','ocolor':'#fff' });
         $.jFlowLabel({ 'id':'fone','icolor':'#fff','ocolor':'#fff' });

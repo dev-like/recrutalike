@@ -26,7 +26,7 @@ class mailController extends Controller
       ];
         Mail::send('mail.mail', $data, function ($mensagem) use ($data) {
             $mensagem->from($data['email']);
-            $mensagem->to('bc15c2@gmail.com', 'Teste');
+            $mensagem->to('trabalhena@likepublicidade.com', 'Recruta Like');
             $mensagem->subject($data['nome'].' se inscreveu no Recruta Like!');
         });
 
