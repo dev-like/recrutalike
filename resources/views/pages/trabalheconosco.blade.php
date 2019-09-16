@@ -63,9 +63,9 @@
     <!-- Chat do Movidesk -->
 
     <!-- Chat do Movidesk fim -->
+    <script src="{{ asset('theme/js/jquery.mask.js') }}" charset="utf-8"></script>
     <script src="{{ asset('theme/js/main.js') }}" charset="utf-8"></script>
     <script src="{{ asset('template/plugins/sweet-alert/sweetalert2.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('theme/js/jquery.mask.js') }}" charset="utf-8"></script>
     <script>
     (function( $ ) {
       $(function() {
