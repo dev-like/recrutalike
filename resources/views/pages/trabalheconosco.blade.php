@@ -69,7 +69,7 @@
     <script>
     (function( $ ) {
       $(function() {
-        $("#fone").mask("(99) 999999-9999");
+        $("#fone").mask("(99) 99999-9999");
       });
     })(jQuery);
 
