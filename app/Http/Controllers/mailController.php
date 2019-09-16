@@ -18,11 +18,13 @@ class mailController extends Controller
         'nome' => 'required',
         'email' => 'required',
         'fone' => 'required',
+        'resumo' => 'required',
       ]);
         $data = [
         'nome'=>$req->nome,
         'email'=>$req->email,
         'fone'=>$req->fone,
+        'resumo'=>$req->resumo,
       ];
         Mail::send('mail.mail', $data, function ($mensagem) use ($data) {
             $mensagem->from($data['email']);

@@ -3,7 +3,7 @@ section.trabalheconosco{
   background-position: 90%;
   background-size: 35% auto;
   overflow: hidden;
-  padding: 100px 0;
+  padding: 80px 0;
 }
 h1.titulo{
   color: #1b6eb4;
@@ -12,6 +12,20 @@ h1.titulo{
   text-align: center;
   padding-bottom: 16px;
   /* text-shadow: 2px 2px 0px #13a855, 3px 3px 0px #1b6eb4; */
+}
+input#resumo {
+  height: 90px;
+}
+textarea{
+  width: 100%;
+  color: #1b6eb4;
+  font-size: .9em;
+  display: block;
+  padding: 8px 10px;
+  background-color: transparent;
+  border-radius: 20px;
+  border:2px solid #1b6eb4;
+  outline: none;
 }
 input{
   width: 100%;
@@ -69,7 +83,7 @@ input::placeholder{
   display: block;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.85);
-  padding: 40px 20px 60px;
+  padding: 40px 20px 40px;
   border-image: url('../images/border.png') 20% round;
   border-top: 5px solid transparent;
   border-radius: 20px;

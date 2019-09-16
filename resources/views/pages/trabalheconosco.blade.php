@@ -31,8 +31,11 @@
                         <input id="nome" name="nome" type="text" required>
                         <label for="email">E-Mail</label>
                         <input id="email" name="email" type="email" required>
-                        <label for="fone">Telefone</label>
+                        <label for="fone">Whatsapp</label>
                         <input id="fone" name="fone" type="tel" required>
+                        <label>Descreva suas habilidades em 150 caracteres</label>
+                        <textarea id="resumo" name="resumo" rows="3" cols="80" maxlength="150"></textarea>
+                        <!-- <input id="resumo" name="fone" type="textarea" required min="1" max="150"> -->
 
                         <button type="submit" class="enviar">ENVIAR</button>
 
@@ -50,7 +53,7 @@
 @section('script')
 <script>
   $('button').on('click', function(){
-    if( $("#nome").val() != "" && $("#email").val() != "" && $("#fone").val() != "" && $("#curriculo").val() != ""){
+    if( $("#nome").val() != "" && $("#email").val() != "" && $("#fone").val() != "" && $("#curriculo").val() != ""&& $("#resumo").val() != ""){
       swal({
         text: 'Enviando inscrição ! ',
         imageUrl: "theme/images/loading.gif",

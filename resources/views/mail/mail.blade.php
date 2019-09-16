@@ -2,3 +2,4 @@
 <p>{{$nome}} se inscreveu para a seleção.</p>
 <p>{{$fone}}</p>
 <p>{{$email}}</p>
+<p>{{$resumo}}</p>
