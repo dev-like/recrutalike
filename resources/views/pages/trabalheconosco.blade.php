@@ -67,9 +67,11 @@
     <script src="{{ asset('template/plugins/sweet-alert/sweetalert2.min.js') }}" type="text/javascript"></script>
     <script src="{{ asset('theme/js/jquery.mask.js') }}" charset="utf-8"></script>
     <script>
-        jQuery(function($){
-          $("#fone").mask("(99) 999999-9999");
-        });
+    (function( $ ) {
+      $(function() {
+        $("#fone").mask("(99) 999999-9999");
+      });
+    })(jQuery);
 
         $.jFlowLabel({ 'id':'nome','icolor':'#fff','ocolor':'#fff' });
         $.jFlowLabel({ 'id':'email','icolor':'#fff','ocolor':'#fff' });
